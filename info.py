@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '10261086'))
 API_HASH = environ.get('API_HASH', '9195dc0591fbdb22b5711bcd1f437dab')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6515031193:AAHk-xf0BZLNKgK9ab6qRHN8_7hJcLQCRh4")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6312899113:AAFcq8BGiv1FzLcC0z-6duMFyRwhkQOqc8s")
 
 #Port
 PORT = environ.get("PORT", "5151")
@@ -25,15 +25,15 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://graph.org/file/f2e803a1bbdc3f3729784.jpg')).split()
 SETTINGS_PICS = (environ.get('SETTINGS_PICS', 'https://graph.org/file/73e4acd0a9f4425fd34be.jpg')).split()
-CHANNEL_PICS = (environ.get('CHANNEL_PICS', 'https://telegra.ph/file/8a0c09d6ba4f1097b19f4.jpg')).split()
+CHANNEL_PICS = (environ.get('CHANNEL_PICS', 'https://graph.org/file/3acf90dbdeeacfba52d8e.jpg')).split()
 DELETE_PICS = (environ.get('DELETE_PICS', 'https://telegra.ph/file/f58fbfbf2774cc93f5e14.jpg')).split()
 SUPPORT_PICS = (environ.get('SUPPORT_PICS', 'https://telegra.ph/file/3bb6c7a38cc3b353b0f1b.jpg')).split()
 RULES_PICS = (environ.get('RULES_PICS', 'https://graph.org/file/4752441b16362f2df8e27.jpg https://graph.org/file/e5445f406f428b47556fc.jpg')).split()
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906 1498007933').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001844726042').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906 927445722').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002133771434').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '')
@@ -47,13 +47,13 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://abdul:abdul@cluster0.zx3rrqx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "abdul")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://YellowFlash:YellowFlash@cluster0.jbpu4uc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "YellowFlash")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-MSG_LOG_CHANNEL = int(environ.get('MSG_LOG_CHANNEL', '-1001959246948'))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001959246948'))
+MSG_LOG_CHANNEL = int(environ.get('MSG_LOG_CHANNEL', '-1002073515045'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002073515045'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@Hs_Botz_Discussion')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
@@ -72,9 +72,9 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
 
 
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Siveroz_Linkzz")
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001881460488'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+VEFK_LuwT-piNDBl')
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/skymovies_tamil")
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1002103032827'))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+RWDU4mZKZWtiZjll')
 
 
 LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
@@ -93,8 +93,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '832ad5ffe369f8dbfcd785735cd76a2b53ee2c46')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '68ffe26e3f470392251d25e48c5d04f619efff19')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', 'True'))
 P_TTI_SHOW_OFF = bool(environ.get('P_TTI_SHOW_OFF', 'True'))
 
