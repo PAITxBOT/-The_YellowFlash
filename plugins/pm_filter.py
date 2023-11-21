@@ -596,7 +596,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                             [[
-                                InlineKeyboardButton("🎭 sɪᴠᴇʀᴏᴢ ʟɪɴᴋᴢᴢ 🎭", url=f"{MAIN_CHANNEL}")
+                                InlineKeyboardButton("🎭 Join Now 🎭", url=f"{MAIN_CHANNEL}")
                             ]]))
                 mh8 = await query.message.reply(script.FILE_MSG.format(query.from_user.mention, title, size),
                 True,
@@ -761,7 +761,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧑‍💻 ᴏᴡɴᴇʀ', callback_data='owner_info'),
-            InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', callback_data='support')
+            InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/skymovies_tamil')
             ],[
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
