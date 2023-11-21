@@ -23,7 +23,7 @@ PORT = environ.get("PORT", "5151")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/f2e803a1bbdc3f3729784.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/2dd736910a54aead8c970.jpg')).split()
 SETTINGS_PICS = (environ.get('SETTINGS_PICS', 'https://graph.org/file/73e4acd0a9f4425fd34be.jpg')).split()
 CHANNEL_PICS = (environ.get('CHANNEL_PICS', 'https://graph.org/file/3acf90dbdeeacfba52d8e.jpg')).split()
 DELETE_PICS = (environ.get('DELETE_PICS', 'https://telegra.ph/file/f58fbfbf2774cc93f5e14.jpg')).split()
