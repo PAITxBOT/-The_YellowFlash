@@ -20,13 +20,11 @@ class script(object):
 
     HELP_TXT = """<b>ʜᴇʏ {}
 
-ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ.
-
-ᴍʏ ᴏᴡɴᴇʀ - <a href=https://t.me/Hari_OP>ʜᴀʀɪ ᠰ ᴛɢ​</a></b>"""
+ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"""
     
     ABOUT_TXT = """<b>
 🤖 ᴍʏ ɴᴀᴍᴇ : {}
-👨‍💻 ᴏᴡɴᴇʀ : ᴀв∂υℓ ᠰ
+👨‍💻 ᴏᴡɴᴇʀ : ʏᴇʟʟᴏᴡ ꜰʟᴀꜱʜ⚡
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ᴠᴘs
@@ -256,16 +254,16 @@ class script(object):
     OWNER_TXT = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ :ʜᴀʀɪ ᠰ ᴛɢ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @hari_op
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ :<a href=https://t.me/Hari_OP>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ :ʏᴇʟʟᴏᴡ ꜰʟᴀꜱʜ⚡
+• ᴜꜱᴇʀɴᴀᴍᴇ : @The_YellowFlash
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ :<a href=https://t.me/The_YellowFlash>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     CAPTION = """<b>
 📂 ғɪʟᴇ ɴᴀᴍᴇ : <code>{file_name}</code>
 
 📑 sɪᴢᴇ : {file_size}
 
-🎭 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Siveroz_Linkzz</b>"""
+🎭 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @skymovies_tamil</b>"""
 
     LOGO = """
 𝑺𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......🥵"""
@@ -284,7 +282,7 @@ class script(object):
 
 📂 <code>{}</code>
 
-🎭 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Siveroz_Linkzz</b>"""
+🎭 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @skymovies_tamil</b>"""
 
     MVE_NT_FND = """🔎 ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...♻️"""
 
