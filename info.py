@@ -104,5 +104,5 @@ SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_download_linkzz/3')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/YellowFlashDowload/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
