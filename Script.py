@@ -234,22 +234,27 @@ class script(object):
 » ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ.
 » ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ.</b>"""
 
-    SUPPORT_TXT = """<b>🎯✨ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪᴠᴇʀᴏᴢ ʟɪɴᴋᴢᴢ ❣
+    SUPPORT_TXT = """<b>🥀 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ꜱᴋʏ ᴍᴏᴠɪᴇ'ꜱ  ✨
 
-⚡️🍬ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟꜱ 🦋✨
+ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟꜱ 👇
+
+• <a href=https://t.me/SKY_24K>ꜱᴋʏ ᴍᴏᴠɪᴇ -[ᴍᴀɪɴ]</a>
+
+• <a href=https://t.me/skymovies_tamil>ᴛᴀᴍɪʟ ᴍᴏᴠɪᴇ'ꜱ</a>
+
+• <a href=https://t.me/DoctorStrange2_Tamil>ᴛᴀᴍɪʟ ᴡᴇʙ-sᴇʀɪᴇs</a>
+
+• <a href=https://t.me/xman_tamil_hd>ᴅᴜʙʙᴇᴅ ᴍᴏᴠɪᴇ'ꜱ</a>
+
+• <a href=https://t.me/+BbucVoZLjSU2MTY1>ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇ</a>
+
+• <a href=https://t.me/Anime_Spots>ᴀɴɪᴍᴇ'ꜱ ᴛᴀᴍɪʟ</a>
+
+    
+• <a href=https://t.me/movies_off_tamil>ᴍᴏᴠɪᴇ ʀᴇ𝚀ᴜᴇꜱᴛ ɢʀᴏᴜᴩ</a>
 
 
-<a href=https://t.me/+x2qlfSKlbu4yYWJl>🔰✥ ▷ ʜᴏʟʟʏᴡᴏᴏᴅ ᴍᴏᴠɪᴇꜱ ◁</a>
-
-<a href=https://t.me/+nKmSHfXM9182OTg9>🔰✥ ▷ ᴅᴜʙʙᴇᴅ ᴍᴏᴠɪᴇꜱ ◁</a>
-
-<a href=https://t.me/+ybrdZmC6FLQxOTM1>🔰✥ ▷ ʜᴏʀʀᴏʀ ᴍᴏᴠɪᴇꜱ ◁</a>
-
-<a href=https://t.me/Siveroz_Anime>🔰✥ ▷ ᴀɴɪᴍᴇ ᴛᴀᴍɪʟ ᴅᴜʙ ◁</a>
-
-🚀 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ - @Siveroz_Linkzz
-
-🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ 🙌</a></b>"""
+• ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a></b>"""
     
     OWNER_TXT = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
