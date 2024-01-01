@@ -39,24 +39,6 @@ FRESH = {}
 SPELL_CHECK = {}
 FILTER_MODE = {}
 
-@Client.on_message(filters.group & filters.media)
-async def media(client, message):
-    userid = message.from_user.id        
-    buttons = [[     
-        InlineKeyboardButton("⚠️ ᴡᴀʀɴɪɴɢ ⚠️", callback_data="check_delete")
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-        
-    k = await message.reply_photo(
-        photo=random.choice(CHANNEL_PICS),
-        caption=f"<b>ᴜsᴇʀ ɴᴀᴍᴇ: {message.from_user.mention} \nᴜsᴇʀ ɪᴅ:{userid} \n\nᴛʜɪs ɢʀᴏᴜᴘ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ʏᴏᴜʀ ғɪʟᴇs...ʟᴀsᴛ ᴡᴀʀɴɪɴɢ....</b>",
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )
-    await asyncio.sleep(5)
-    await k.delete()
-    await message.delete()
-
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_CHAT_ID:
@@ -758,14 +740,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🧑‍💻 ᴏᴡɴᴇʀ', callback_data='owner_info'),
-            InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/skymovies_tamil')
-            ],[
+            InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', user_id=OWNER_ID),
+            InlineKeyboardButton('💡 ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/OMGxBotz')
+        ], [
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
-            ],[
+        ], [
+            InlineKeyboardButton('🔰 ꜱᴋʏ ᴍᴏᴠɪᴇs ᴏғғɪᴄɪᴀʟ 🔰', callback_data='support')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
