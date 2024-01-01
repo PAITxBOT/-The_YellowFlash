@@ -1,5 +1,5 @@
 import re, os
-from os import environ
+from os import environ, getenv
 from Script import script
 
 id_pattern = re.compile(r'^.\d+$')
@@ -23,15 +23,16 @@ PORT = environ.get("PORT", "5151")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/2dd736910a54aead8c970.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/e0588e6f942a8fb37a6ee.jpg https://graph.org/file/32e8d4773263865c4f5da.jpg https://graph.org/file/e912c9e207186a4a59f14.jpg https://graph.org/file/533cb010c98fc023978c5.jpg https://graph.org/file/2f623532544328d74a307.jpg https://graph.org/file/9e7aa12a9599e54c957ee.jpg https://graph.org/file/e7034166cf2fc4bde6c5d.jpg')).split()
 SETTINGS_PICS = (environ.get('SETTINGS_PICS', 'https://graph.org/file/73e4acd0a9f4425fd34be.jpg')).split()
 CHANNEL_PICS = (environ.get('CHANNEL_PICS', 'https://graph.org/file/3acf90dbdeeacfba52d8e.jpg')).split()
 DELETE_PICS = (environ.get('DELETE_PICS', 'https://telegra.ph/file/f58fbfbf2774cc93f5e14.jpg')).split()
-SUPPORT_PICS = (environ.get('SUPPORT_PICS', 'https://telegra.ph/file/3bb6c7a38cc3b353b0f1b.jpg')).split()
+SUPPORT_PICS = (environ.get('SUPPORT_PICS', '')).split()
 RULES_PICS = (environ.get('RULES_PICS', 'https://graph.org/file/4752441b16362f2df8e27.jpg https://graph.org/file/e5445f406f428b47556fc.jpg')).split()
 
 
 # Admins, Channels & Users
+OWNER_ID = int(getenv("OWNER_ID", 927445722))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906 927445722').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002133771434').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
