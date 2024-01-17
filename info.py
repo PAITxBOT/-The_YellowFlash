@@ -25,9 +25,9 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://graph.org/file/e0588e6f942a8fb37a6ee.jpg https://graph.org/file/32e8d4773263865c4f5da.jpg https://graph.org/file/e912c9e207186a4a59f14.jpg https://graph.org/file/533cb010c98fc023978c5.jpg https://graph.org/file/2f623532544328d74a307.jpg https://graph.org/file/9e7aa12a9599e54c957ee.jpg https://graph.org/file/e7034166cf2fc4bde6c5d.jpg')).split()
 SETTINGS_PICS = (environ.get('SETTINGS_PICS', 'https://graph.org/file/73e4acd0a9f4425fd34be.jpg')).split()
-CHANNEL_PICS = (environ.get('CHANNEL_PICS', 'https://graph.org/file/3acf90dbdeeacfba52d8e.jpg')).split()
+CHANNEL_PICS = (environ.get('CHANNEL_PICS', 'https://graph.org/file/5f4a9de9ac49cf5267407.jpg')).split()
 DELETE_PICS = (environ.get('DELETE_PICS', 'https://telegra.ph/file/f58fbfbf2774cc93f5e14.jpg')).split()
-SUPPORT_PICS = (environ.get('SUPPORT_PICS', 'https://graph.org/file/3acf90dbdeeacfba52d8e.jpg')).split()
+SUPPORT_PICS = (environ.get('SUPPORT_PICS', 'https://graph.org/file/5f4a9de9ac49cf5267407.jpg')).split()
 RULES_PICS = (environ.get('RULES_PICS', 'https://graph.org/file/4752441b16362f2df8e27.jpg https://graph.org/file/e5445f406f428b47556fc.jpg')).split()
 
 
@@ -37,9 +37,9 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002133771434').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002026491487')
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
-FORCE_SUB   = os.environ.get("FORCE_SUB", "SKY_24K")
+FORCE_SUB   = os.environ.get("FORCE_SUB", "")
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
