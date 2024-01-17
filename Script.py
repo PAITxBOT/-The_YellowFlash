@@ -240,18 +240,20 @@ class script(object):
 
 • <a href=https://t.me/SKY_24K>ꜱᴋʏ ᴍᴏᴠɪᴇ -[ᴍᴀɪɴ]</a>
 
-• <a href=https://t.me/skymovies_tamil>ᴛᴀᴍɪʟ ᴍᴏᴠɪᴇ'ꜱ</a>
+• <a href=https://t.me/+yAZGyhiAr7Q1Y2Fl>ᴛᴀᴍɪʟ ᴍᴏᴠɪᴇ'ꜱ</a>
 
-• <a href=https://t.me/DoctorStrange2_Tamil>ᴛᴀᴍɪʟ ᴡᴇʙ-sᴇʀɪᴇs</a>
+• <a href=https://t.me/+82VlIVt2T0EyZTY1>ᴅᴜʙʙᴇᴅ ᴍᴏᴠɪᴇ'ꜱ</a>
 
-• <a href=https://t.me/xman_tamil_hd>ᴅᴜʙʙᴇᴅ ᴍᴏᴠɪᴇ'ꜱ</a>
+• <a href=https://t.me/+i3fHoHPc7sY5MDVl>ᴡᴇʙ-sᴇʀɪᴇs</a>
 
-• <a href=https://t.me/+BbucVoZLjSU2MTY1>ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇ</a>
+• <a href=https://t.me/+B19HtbS0NEcxMGRl>ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇ</a>
 
 • <a href=https://t.me/Anime_Spots>ᴀɴɪᴍᴇ'ꜱ ᴛᴀᴍɪʟ</a>
 
+• <a href=https://t.me/+mqBY6Jxk9PIwYjY1>ᴏᴛʜᴇʀ ʟᴀɴɢ ᴍᴏᴠɪᴇ'ꜱ</a>
+
     
-• <a href=https://t.me/movies_off_tamil>ᴍᴏᴠɪᴇ ʀᴇ𝚀ᴜᴇꜱᴛ ɢʀᴏᴜᴩ</a>
+➳ <a href=https://t.me/movies_off_tamil>ᴍᴏᴠɪᴇ ʀᴇ𝚀ᴜᴇꜱᴛ ɢʀᴏᴜᴩ</a>
 
 
 • ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a></b>"""
