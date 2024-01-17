@@ -270,7 +270,7 @@ class script(object):
 
 📑 sɪᴢᴇ : {file_size}
 
-🎭 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @skymovies_tamil</b>"""
+🎭 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @SKY_24K</b>"""
 
     LOGO = """
 𝑺𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......🥵"""
